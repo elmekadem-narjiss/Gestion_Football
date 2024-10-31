@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Equipe-Securite" />
+        <module name="Service_Equipe" />
+        <module name="Gateway-Service" />
+        <module name="Service_Player" />
+        <module name="Discovery-Service" />
+        <module name="Gestion_Equipe_Fotball" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Equipe_Securite" target="17" />
+      <module name="test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Discovery-Service" options="-parameters" />
+      <module name="Equipe-Securite" options="-parameters" />
+      <module name="Equipe_Securite" options="-parameters" />
+      <module name="Gateway-Service" options="-parameters" />
+      <module name="Service_Equipe" options="-parameters" />
+      <module name="Service_Player" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>
